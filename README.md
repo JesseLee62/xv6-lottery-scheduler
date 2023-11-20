@@ -11,3 +11,6 @@ Assign tickets to a process when it is created. Specifically, need to make sure 
 Implement a second system call to gather some statistics about all the running process. The prototype for the second system call is 
 ### int getpinfo(struct pstat *) 
 This routine returns some information about all running processes, including how many times each has been chosen to run and the process ID of each.
+## Testing
+```bash
+$ make qemu
